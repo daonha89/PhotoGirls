@@ -52,7 +52,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate ,UINaviga
         nav.pushViewController(postPhoto, animated: true)
     }
     func showMenu(){
-        
+        // test
         UIView.animateWithDuration( 0.3, animations: {
             
             var offset:CGFloat = 200
