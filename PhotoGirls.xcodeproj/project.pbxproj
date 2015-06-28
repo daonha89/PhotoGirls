@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3D91B41B33070100300212 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3D91B31B33070100300212 /* Utils.swift */; };
+		6B3D91EE1B330C6700300212 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3D91ED1B330C6700300212 /* HomeCollectionViewController.swift */; };
+		6B3D91F11B3311CF00300212 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D91EF1B3311CF00300212 /* download.jpeg */; };
+		6B3D91F21B3311CF00300212 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D91F01B3311CF00300212 /* images.jpeg */; };
+		6B3D91F41B33181C00300212 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3D91F31B33181C00300212 /* PreviewViewController.swift */; };
+		6B8DE3F81B40420C0040ACEE /* PostPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DE3F71B40420C0040ACEE /* PostPhotoViewController.swift */; };
 		6BC1486D1B31AD6100843F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1486C1B31AD6100843F16 /* AppDelegate.swift */; };
 		6BC1486F1B31AD6100843F16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1486E1B31AD6100843F16 /* ViewController.swift */; };
 		6BC148721B31AD6100843F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC148701B31AD6100843F16 /* Main.storyboard */; };
 		6BC148741B31AD6100843F16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC148731B31AD6100843F16 /* Images.xcassets */; };
 		6BC148771B31AD6100843F16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC148751B31AD6100843F16 /* LaunchScreen.xib */; };
 		6BC148831B31AD6100843F16 /* PhotoGirlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC148821B31AD6100843F16 /* PhotoGirlsTests.swift */; };
+		6BC148951B31B87300843F16 /* Menu_button_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BC148931B31B87300843F16 /* Menu_button_24.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B3D91B31B33070100300212 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6B3D91ED1B330C6700300212 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		6B3D91EF1B3311CF00300212 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		6B3D91F01B3311CF00300212 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		6B3D91F31B33181C00300212 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		6B8DE3F71B40420C0040ACEE /* PostPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPhotoViewController.swift; sourceTree = "<group>"; };
 		6BC148671B31AD6100843F16 /* PhotoGirls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGirls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC1486B1B31AD6100843F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BC1486C1B31AD6100843F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,7 @@
 		6BC1487C1B31AD6100843F16 /* PhotoGirlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoGirlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC148811B31AD6100843F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BC148821B31AD6100843F16 /* PhotoGirlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGirlsTests.swift; sourceTree = "<group>"; };
+		6BC148931B31B87300843F16 /* Menu_button_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu_button_24.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +91,15 @@
 		6BC148691B31AD6100843F16 /* PhotoGirls */ = {
 			isa = PBXGroup;
 			children = (
+				6BC148901B31B87300843F16 /* Class */,
+				6BC148921B31B87300843F16 /* Resource */,
 				6BC1486C1B31AD6100843F16 /* AppDelegate.swift */,
 				6BC1486E1B31AD6100843F16 /* ViewController.swift */,
 				6BC148701B31AD6100843F16 /* Main.storyboard */,
 				6BC148731B31AD6100843F16 /* Images.xcassets */,
 				6BC148751B31AD6100843F16 /* LaunchScreen.xib */,
 				6BC1486A1B31AD6100843F16 /* Supporting Files */,
+				6B3D91B31B33070100300212 /* Utils.swift */,
 			);
 			path = PhotoGirls;
 			sourceTree = "<group>";
@@ -110,6 +127,26 @@
 				6BC148811B31AD6100843F16 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BC148901B31B87300843F16 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6B3D91ED1B330C6700300212 /* HomeCollectionViewController.swift */,
+				6B3D91F31B33181C00300212 /* PreviewViewController.swift */,
+				6B8DE3F71B40420C0040ACEE /* PostPhotoViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6BC148921B31B87300843F16 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6B3D91EF1B3311CF00300212 /* download.jpeg */,
+				6B3D91F01B3311CF00300212 /* images.jpeg */,
+				6BC148931B31B87300843F16 /* Menu_button_24.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +231,10 @@
 			files = (
 				6BC148721B31AD6100843F16 /* Main.storyboard in Resources */,
 				6BC148771B31AD6100843F16 /* LaunchScreen.xib in Resources */,
+				6B3D91F11B3311CF00300212 /* download.jpeg in Resources */,
+				6BC148951B31B87300843F16 /* Menu_button_24.png in Resources */,
 				6BC148741B31AD6100843F16 /* Images.xcassets in Resources */,
+				6B3D91F21B3311CF00300212 /* images.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3D91B41B33070100300212 /* Utils.swift in Sources */,
+				6B8DE3F81B40420C0040ACEE /* PostPhotoViewController.swift in Sources */,
 				6BC1486F1B31AD6100843F16 /* ViewController.swift in Sources */,
+				6B3D91EE1B330C6700300212 /* HomeCollectionViewController.swift in Sources */,
+				6B3D91F41B33181C00300212 /* PreviewViewController.swift in Sources */,
 				6BC1486D1B31AD6100843F16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,10 +333,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -326,9 +372,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -338,9 +386,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PhotoGirls/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +400,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PhotoGirls/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -407,6 +462,7 @@
 				6BC148881B31AD6100843F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BC148891B31AD6100843F16 /* Build configuration list for PBXNativeTarget "PhotoGirlsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +471,7 @@
 				6BC1488B1B31AD6100843F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
